@@ -1,0 +1,326 @@
+body {
+    width:auto;
+    margin:0 auto;
+    height:640px;
+    //border:1px solid black;
+    font-family: Times New Roman;
+    line-height: 1;
+}
+
+
+.searchForm{
+    //width:100%;
+    //min-width:410px;
+    height:42px;
+    border:1px solid ghostwhite;
+    border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border-radius: 7px 7px 7px 7px;
+    position: absolute;
+    display: block;
+    top:50px;
+}
+
+#searchValue{
+    width:170px;
+    height:42px;
+    background-color:#E9F0F0;
+    border:1px solid #E9F0F0;
+    position: relative;
+    border-radius: 7px 0px 0px 7px;
+    -moz-border-radius: 7px 0px 0px 7px;
+    -webkit-border-radius: 7px 0px 0px 7px;
+
+}
+
+#searchValue:hover{
+    box-shadow: 1px 1px 0.5px grey;
+}
+
+.searchValueLink{
+    color:black;
+    width:170px;
+    height:42px;
+}
+
+#searchIcon{
+    position: absolute;
+    display: block;
+    top:11px;
+    left: 10px;
+    width:20px;
+    height: 20px;
+    background: url(../images/search.png) no-repeat;
+}
+
+#menuElements{
+    position: absolute;
+    left:33px;
+    width:110px;
+    height:40px;
+    font-size:13px;
+}
+
+#hiddenElements{
+    position: absolute;
+    margin-left: -10px;
+    top:32px;
+    padding-top: 4px;
+    //padding-left: 6px;
+    width:170px;
+    height:500px;
+    border:1px solid lightgray;
+    border-radius: 7px 7px 0px 0px;
+    -moz-border-radius: 7px 7px 0px 0px;
+    -webkit-border-radius: 7px 7px 0px 0px;
+    font-size:13px;
+    display: none;
+    z-index: 9999;
+    background-color:beige;
+}
+
+.elementsLinks{
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    width:170px;
+    height: 22px;
+    float: left;
+
+}
+
+.elementsLinks:hover{
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    width:170px;
+    height: 22px;
+    background-color: #E9F0F0;
+}
+
+.searchInputBar{
+    position: relative;
+    left:170px;
+    margin-top: -1px;
+    width:230%;
+    height:38px;
+    border-top-style: solid;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: none;
+    border-color:#E9F0F0;
+    display: table-cell;
+}
+.searchInputBar:active{
+    border-top-style: solid;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: none;
+}
+
+.searchButton{
+    position: absolute;
+    top:-1px;
+    margin-left:510px;
+    width:75px;
+    height:46px;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 0px 5px 5px 0px;
+    -moz-border-radius: 0px 5px 5px 0px;
+    -webkit-border-radius: 0px 5px 5px 0px;
+    color:white;
+    outline: none;
+}
+
+.searchButton:hover{
+    background-color: #F2051D;
+}
+
+.navbar{
+    width:1042px;
+    height:53px;
+    border: 1px solid gainsboro;
+    position: absolute;
+    top: 150px;
+    border-radius: 0px 5px 5px 0px;
+    -moz-border-radius: 0px 5px 5px 0px;
+    -webkit-border-radius: 0px 5px 5px 0px;
+    background-color: #E9F0F0;
+}
+
+.textNavBar{
+    width:80%;
+    height:45%;
+    //border: 1px solid black;
+    position: relative;
+    top:13px;
+    left:20px;
+}
+
+.sortText{
+    font-size: 15px;
+    position: absolute;
+    top:4px;
+}
+
+#sortValues{
+    position: absolute;
+    top:0px;
+    padding-left: 10px;
+    padding-top: 2px;
+    left:125px;
+    width:125px;
+    height:23px;
+    border:1px solid gainsboro;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    background-color: #E9F0F0;
+}
+
+
+#sortValues:hover{
+    border:1px solid darkgrey;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    background-color: #E9F0F0;
+    box-shadow: 0px 1px 4px grey;
+}
+
+.arrow{
+    width: 0;
+    height: 0;
+    border-top:4px solid black;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    position: absolute;
+    left:240px;
+    top:10px;
+}
+
+.arrowUp{
+    width: 0;
+    height: 0;
+    border-top:4px solid black;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    position: absolute;
+    left:140px;
+    top:7px;
+}
+
+.sortValuesLink{
+    color:black;
+}
+
+#hiddenSearchValues{
+    position: absolute;
+    left:125px;
+    top:30px;
+    width:165px;
+    height:140px;
+    padding-top: 5px;
+    border:1px solid white;
+    background-color: white;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    display: none;
+}
+
+.catalogView{
+    position:absolute;
+    left: 770px;
+    top:17px;
+
+}
+
+.buttonIcon{
+    position: absolute;
+    left:900px;
+    top:0px;
+    width:48px;
+    height:54px;
+    background-color: #E9F0F0;
+    outline: none;
+    background: url(../images/buttonIcon.png) no-repeat 50% 50%;
+    border: 1px solid gainsboro;
+}
+
+
+.buttonIcon:hover{
+    position: absolute;
+    left:899px;
+    top:0px;
+    width:48px;
+    height:54px;
+    background-color: #E9F0F0;
+    outline: none;
+    background: url(../images/buttonIconR.png) no-repeat 50% 50%;
+    border: 1px solid darkgrey;
+}
+
+.buttonIconSecond{
+    position: absolute;
+    left:947px;
+    top:0px;
+    width:48px;
+    height:54px;
+    background-color: #E9F0F0;
+    outline: none;
+    background: url(../images/buttonIconS.png) no-repeat 50% 50%;
+    border: 1px solid gainsboro;
+}
+
+
+.buttonIconSecond:hover{
+    position: absolute;
+    left:947px;
+    top:0px;
+    width:48px;
+    height:54px;
+    background-color: #E9F0F0;
+    outline: none;
+    background: url(../images/buttonIconSR.png) no-repeat 50% 50%;
+    border: 1px solid darkgrey;
+}
+
+
+.buttonIconThird{
+    position: absolute;
+    left:995px;
+    top:0px;
+    width:48px;
+    height:54px;
+    background-color: #E9F0F0;
+    outline: none;
+    background: url(../images/buttonIconT.png) no-repeat 50% 50%;
+    border: 1px solid gainsboro;
+    border-radius: 0px 5px 5px 0px;
+    -moz-border-radius: 0px 5px 5px 0px;
+    -webkit-border-radius: 0px 5px 5px 0px;
+
+}
+
+
+.buttonIconThird:hover{
+    position: absolute;
+    left:995px;
+    top:0px;
+    width:48px;
+    height:54px;
+    background-color: #E9F0F0;
+    outline: none;
+    background: url(../images/buttonIconTR.png) no-repeat 50% 50%;
+    border: 1px solid darkgrey;
+    border-radius: 0px 5px 5px 0px;
+    -moz-border-radius: 0px 5px 5px 0px;
+    -webkit-border-radius: 0px 5px 5px 0px;
+
+}
+
+.tabletList
