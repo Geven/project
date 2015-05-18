@@ -1,72 +1,98 @@
 body {
-    width:auto;
-    margin:0 auto;
-    height:640px;
-    //border:1px solid black;
     font-family: Times New Roman;
-    line-height: 1;
+    font-size: 100%;
+    //font-size: 16px;
+
 }
 
-
-.searchForm{
-    //width:100%;
-    //min-width:410px;
-    height:42px;
-    border:1px solid ghostwhite;
-    border-radius: 7px 7px 7px 7px;
-    -moz-border-radius: 7px 7px 7px 7px;
-    -webkit-border-radius: 7px 7px 7px 7px;
+.setter{
+    height: 2.5em;
     position: absolute;
-    display: block;
-    top:50px;
-}
-
-#searchValue{
-    width:170px;
-    height:42px;
-    background-color:#E9F0F0;
-    border:1px solid #E9F0F0;
-    position: relative;
-    border-radius: 7px 0px 0px 7px;
-    -moz-border-radius: 7px 0px 0px 7px;
-    -webkit-border-radius: 7px 0px 0px 7px;
+    width: 60%;
 
 }
 
-#searchValue:hover{
-    box-shadow: 1px 1px 0.5px grey;
+.width-setter{
+    left:30%;
+    width: 60%;
+    height:2.7em;
+    border: 1px solid #dcdcdc;
+    padding-left: 1%;
+    box-sizing: border-box\9;
+    padding-top:10px\9;
+    height: 2.98em\9;
+
 }
 
-.searchValueLink{
-    color:black;
-    width:170px;
-    height:42px;
+.hiddenMenuBackground{
+    float: left;
+    left:0;
+    width:30%;
+    z-index: 9999;
+    height:2.7em;
+    background-color: #E9F0F0;
+    behavior: url(../PIE.htc);
+    border:1px solid #dcdcdc;
+    border-radius: 5px 0px 0px 5px;
+    -moz-border-radius: 5px 0px 0px 5px;
+    -webkit-border-radius: 5px 0px 0px 5px;
+    behavior: url('http://localhost/project/PIE.htc');
 }
 
 #searchIcon{
     position: absolute;
-    display: block;
-    top:11px;
-    left: 10px;
-    width:20px;
+    top:0.7em;
+    left: 1.2%;
+    width:1.125em;
+    width:1.25em\9;
     height: 20px;
-    background: url(../images/search.png) no-repeat;
+    background: url(../images/icons.png) no-repeat;
+    background-position: 46.3% 0%;
+    background: url(../images/search.png) no-repeat\9;
+    display: block;
+    z-index: 999;
 }
 
 #menuElements{
     position: absolute;
-    left:33px;
-    width:110px;
-    height:40px;
+    top:0.5em;
+    left:11%;
+    width:16%;
+    height: 2em;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    z-index: 999;
+    (;top: 0.9em;);
+    [;top: 0.9em;];
+    behavior: url('http://localhost/project/PIE.htc');
+}
+
+::i-block-chrome, #menuElements {
+    position: absolute;
+    top:0.6em;
+    left:11%;
+    width:16%;
+    line-height:1.5em;
     font-size:13px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    z-index: 999;
+
+}
+
+#menuElements select option {
+    background: #808080;
 }
 
 #hiddenElements{
     position: absolute;
     margin-left: -10px;
-    top:32px;
+    top:29px;
     padding-top: 4px;
-    //padding-left: 6px;
     width:170px;
     height:500px;
     border:1px solid lightgray;
@@ -76,7 +102,7 @@ body {
     font-size:13px;
     display: none;
     z-index: 9999;
-    background-color:beige;
+    background-color:white;
 }
 
 .elementsLinks{
@@ -98,32 +124,13 @@ body {
     background-color: #E9F0F0;
 }
 
-.searchInputBar{
-    position: relative;
-    left:170px;
-    margin-top: -1px;
-    width:230%;
-    height:38px;
-    border-top-style: solid;
-    border-right-style: none;
-    border-bottom-style: solid;
-    border-left-style: none;
-    border-color:#E9F0F0;
-    display: table-cell;
-}
-.searchInputBar:active{
-    border-top-style: solid;
-    border-right-style: none;
-    border-bottom-style: solid;
-    border-left-style: none;
-}
-
 .searchButton{
     position: absolute;
-    top:-1px;
-    margin-left:510px;
-    width:75px;
-    height:46px;
+    float: right;
+    width:18.5%;
+    width:18.5%\9;
+    margin-left: -4px\9;
+    height:2.9em;
     background-color: red;
     border: 1px solid red;
     border-radius: 0px 5px 5px 0px;
@@ -131,6 +138,7 @@ body {
     -webkit-border-radius: 0px 5px 5px 0px;
     color:white;
     outline: none;
+    behavior: url('http://localhost/project/PIE.htc');
 }
 
 .searchButton:hover{
@@ -138,45 +146,60 @@ body {
 }
 
 .navbar{
-    width:1042px;
-    height:53px;
+    width:99%;
+    height:3.3125em;
     border: 1px solid gainsboro;
     position: absolute;
-    top: 150px;
-    border-radius: 0px 5px 5px 0px;
-    -moz-border-radius: 0px 5px 5px 0px;
-    -webkit-border-radius: 0px 5px 5px 0px;
+    top: 8em;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
     background-color: #E9F0F0;
+    behavior: url('http://localhost/project/PIE.htc');
+}
+
+
+::i-block-chrome, .navbar {
+    font-size:2vw;
+    width:99%;
+    height:3.3125em;
+    border: 1px solid gainsboro;
+    position: absolute;
+    top: 8em;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    background-color: #E9F0F0;
+    behavior: url('http://localhost/project/PIE.htc');
+
 }
 
 .textNavBar{
     width:80%;
     height:45%;
-    //border: 1px solid black;
     position: relative;
     top:13px;
     left:20px;
 }
 
 .sortText{
-    font-size: 15px;
     position: absolute;
-    top:4px;
+    top:5%;
 }
 
 #sortValues{
     position: absolute;
-    top:0px;
+    left:10em;
+    width:22%;
+    height:1.9em;
     padding-left: 10px;
     padding-top: 2px;
-    left:125px;
-    width:125px;
-    height:23px;
     border:1px solid gainsboro;
     border-radius: 5px 5px 5px 5px;
     -moz-border-radius: 5px 5px 5px 5px;
     -webkit-border-radius: 5px 5px 5px 5px;
     background-color: #E9F0F0;
+
 }
 
 
@@ -224,25 +247,26 @@ body {
     width:165px;
     height:140px;
     padding-top: 5px;
-    border:1px solid white;
+    border:1px solid #dcdcdc;
     background-color: white;
     border-radius: 5px 5px 5px 5px;
     -moz-border-radius: 5px 5px 5px 5px;
     -webkit-border-radius: 5px 5px 5px 5px;
     display: none;
+    z-index: 9998;
 }
 
 .catalogView{
-    position:absolute;
-    left: 770px;
-    top:17px;
+    float: right;
+    margin-top: -0.5em;
 
 }
 
+
 .buttonIcon{
-    position: absolute;
-    left:900px;
-    top:0px;
+    margin-top: -24px;
+    float: right;
+    display: table-cell;
     width:48px;
     height:54px;
     background-color: #E9F0F0;
@@ -253,21 +277,23 @@ body {
 
 
 .buttonIcon:hover{
-    position: absolute;
-    left:899px;
-    top:0px;
-    width:48px;
-    height:54px;
     background-color: #E9F0F0;
     outline: none;
     background: url(../images/buttonIconR.png) no-repeat 50% 50%;
     border: 1px solid darkgrey;
 }
 
+
+.buttonIcon:active{
+    background-color: #000000;
+    outline: none;
+    border: 1px solid darkgrey;
+}
+
 .buttonIconSecond{
-    position: absolute;
-    left:947px;
-    top:0px;
+    margin-top: -24px;
+    display: table-cell;
+    float: right;
     width:48px;
     height:54px;
     background-color: #E9F0F0;
@@ -278,22 +304,23 @@ body {
 
 
 .buttonIconSecond:hover{
-    position: absolute;
-    left:947px;
-    top:0px;
-    width:48px;
-    height:54px;
     background-color: #E9F0F0;
     outline: none;
     background: url(../images/buttonIconSR.png) no-repeat 50% 50%;
     border: 1px solid darkgrey;
 }
 
+.buttonIconSecond:active{
+    background-color: #000000;
+    outline: none;
+    border: 1px solid gainsboro;
+
+}
 
 .buttonIconThird{
-    position: absolute;
-    left:995px;
-    top:0px;
+    margin-top: -24px;
+    display: table-cell;
+    float: right;
     width:48px;
     height:54px;
     background-color: #E9F0F0;
@@ -308,11 +335,6 @@ body {
 
 
 .buttonIconThird:hover{
-    position: absolute;
-    left:995px;
-    top:0px;
-    width:48px;
-    height:54px;
     background-color: #E9F0F0;
     outline: none;
     background: url(../images/buttonIconTR.png) no-repeat 50% 50%;
@@ -323,4 +345,926 @@ body {
 
 }
 
-.tabletList
+.buttonIconThird:active{
+    background-color: #000000;
+    outline: none;
+    border: 1px solid darkgrey;
+    border-radius: 0px 5px 5px 0px;
+    -moz-border-radius: 0px 5px 5px 0px;
+    -webkit-border-radius: 0px 5px 5px 0px;
+
+}
+
+.tabletList{
+    //width:99%;
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:14.37em;
+    //top:20%;
+    margin-bottom: 15px;
+    display: none;
+    //border: 1px solid black;
+    //font-size:0.9vw;
+
+}
+
+.tabletListItem{
+    width: 24.84%\9;
+    width:24.59%;
+    height:60%;
+    min-height:350px;
+    border:1px solid gainsboro;
+    float: left;
+    position: relative;
+}
+
+
+.tabletListItem:hover{
+    -webkit-box-shadow: 1px 1px 14px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    1px 1px 14px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         1px 1px 14px 0px rgba(50, 50, 50, 0.75);
+}
+
+.tabletListImage{
+    position:relative;
+    left: 20%;
+    //width:45%;
+}
+
+.scaleImage{
+    display:block;
+    width: 45%;
+}
+
+.advantageGoods{
+    position: relative;
+    width:33%;
+    height: 1em;
+    left:5%;
+    //top:-5%;
+    border: 1px solid green;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    color:white;
+    font-size:0.9vw;
+    background-color: green;
+    padding: 5px;
+}
+
+.superPrice{
+    position: relative;
+    width:17%;
+    height: 1em;
+    margin-left:5%;
+    top:4%;
+    border: 1px solid green;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    color:white;
+    font-size: 0.9vw;
+    //font-size:13px;
+    background-color: green;
+    padding: 5px;
+
+}
+
+.tabletListParag{
+    position:relative;
+    width:75%;
+    height:1em;
+    top:5%;
+    left:5%;
+    font-size: 1vw;
+    text-align: justify;
+}
+
+.tabletListParagLink{
+    color: black;
+    text-decoration: none;
+}
+
+.tabletListParagLink:hover{
+    color: red;
+    text-decoration: none;
+
+}
+
+
+.tabletListTwoColumn{
+    position:relative;
+    top:5%;
+    left:5%;
+}
+
+.tabletListFirstColumn{
+    position:absolute;
+    width:8.4375em;
+    height:5.9375em;
+    font-size: 0.9vw;
+    margin-top:-2%;
+}
+
+.oldPrice{
+    position: relative;
+    top:5%;
+    width:80%;
+    height:1em;
+    text-decoration: line-through;
+    color: red;
+    font-size: 1.2vw;
+}
+
+.priceRur{
+    position: relative;
+    font-size: 1.2vw;
+    font-weight: bolder;
+    top:10%;
+}
+.rur{
+    font-size: 1.1vw;
+    position: relative;
+    top:-15%;
+    left:40%;
+}
+.question{
+    position: relative;
+    left:71%;
+    top:-39%;
+    width:10%;
+    height: 1em;
+   /* border:1px solid #808080;
+    border-radius: 9px 9px 9px 9px;
+    -moz-border-radius: 9px 9px 9px 9px;
+    -webkit-border-radius: 9px 9px 9px 9px;
+    padding-left:4px;
+   */ font-size: 1.1vw;
+}
+
+.starsValue{
+    position: relative;
+    top:-35%;
+    left:0%;
+    color:red;
+    font-size: 1.2vw;
+}
+
+.reviews{
+    position: relative;
+    top:-60%;
+    left:70%;
+    border-bottom: 1px dotted #808080;
+    font-size: 1vw;
+    width: 15%;
+}
+
+.tabletListBuyButtonDiv{
+    position:relative;
+    margin:10%;
+    left:-10%;
+    bottom: 65%;
+}
+.tabletListBuyButton{
+    position:relative;
+    width: 90%;
+    height: 50%;
+    background: red;
+    border: 1px solid red;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    font-size: 1.1vw;
+    color: white;
+    box-shadow: 0px 1px 2px 1px #808080;
+}
+
+.tabletListBuyButton:hover{
+    background-color: #F2051D;
+    box-shadow: 0px 1px 2px 1px darkgray;
+    outline: none;
+}
+
+
+.roundBall{
+    width: 0px;
+    height: 0px;
+    position: relative;
+    left: 40%;
+    margin-top:5%;
+    border-bottom: 3px solid green;
+    border-top: 3px solid green;
+    border-left: 3px solid green;
+    border-right: 3px solid green;
+    border-radius: 3px;
+    font-size: 1.1vw;
+}
+
+.inStock{
+    position: relative;
+    margin-top:5%;
+    left:46%;
+    width:23%;
+    -webkit-column-width:25%;
+    height:10%;
+    color: green;
+    font-size: 1.1vw;
+    border-bottom: 1px dotted #008000;
+}
+
+.roundBall:hover{
+    color: red;
+    border-bottom: 3px dotted red;
+    border-top: 3px solid red;
+    border-left: 3px solid red;
+    border-right: 3px solid red;
+    border-radius: 3px;
+    color: red;
+}
+
+.inStock:hover{
+    color: red;
+    border-bottom: 1px dotted red;
+}
+
+
+.comparisonIcon{
+    position:absolute;
+    margin-top: 2%;
+    left:39%;
+    background-size:cover;
+    -moz-background-size:cover;
+    //zoom: 100%;
+    width:15px;
+    height:20px;
+    background: url(../images/icons.png) no-repeat;
+    background-position: 25.6% 0%;
+    //border:1px solid black;
+    font-size: 1.1vw;
+    vertical-align: middle;
+}
+
+.comparisonIcon:hover{
+    background: url(../images/icons.png) no-repeat;
+    background-position: 26.4% 0%;
+    }
+
+.comparisonText{
+    position:relative;
+    width:30%;
+    height:40%;
+    color:grey;
+    font-size:1.1vw;
+    //border: 1px solid black;
+    margin-left:46%;
+    margin-top:1.8%;
+}
+
+.comparisonText:hover{
+    color: red;
+
+}
+
+.bookmarks{
+    width:40%;
+    height:20%;
+    position: relative;
+    margin-top:3%;
+    margin-left: 46%;
+    /*left:46%;
+    top:10%;
+    */font-size: 1.1vw;
+    color: #808080;
+}
+
+.bookmarks:hover{
+    color: red;
+}
+
+.bookmarksImage{
+    background: url(../images/icons.png) no-repeat;
+    background-position: 27.2% 0%;
+    background-size:cover;
+    -moz-background-size: cover;
+    /*height:20px;
+    width:15px;
+    */
+    width:15px;
+    height: 60px;
+    position: absolute;
+    left:39%;
+    margin-top:3.5%;
+}
+
+.bookmarksImage:hover{
+    background: url(../images/icons.png) no-repeat;
+    background-position: 27.99% 0%;
+    background-size:cover;
+    -moz-background-size: cover;
+    width:15px;
+    height: 60px;
+
+}
+
+.listWithImages{
+    position:absolute;
+    height: auto;
+    top:230px;
+    display: none;
+    width:77.2%;
+    max-width: 1055px;
+    min-width: 700px;
+
+}
+
+.listWithImagesTablet{
+    border:1px solid gainsboro;
+    position: relative;
+    height: 147px;
+    width: 100%;
+}
+
+.listWithImagesTablet:hover{
+    -webkit-box-shadow: 1px 1px 14px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    1px 1px 14px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         1px 1px 14px 0px rgba(50, 50, 50, 0.75);
+    z-index: 101;
+}
+
+.smallImage{
+    position: absolute;
+    left: 20px;
+    top:20px;
+    width:110px;
+    height: 100px;
+
+}
+
+.listWithImagesParagh{
+    position: absolute;
+    top:25px;
+    left:140px;
+
+}
+
+.listWithImagesLink{
+    color: #000000;
+    text-decoration: none;
+}
+
+.listWithImagesLink:hover{
+    color:red;
+    text-decoration: none;
+}
+
+.listWithImagesParaghDuplicate{
+    position: absolute;
+    top: 50px;
+    left: 140px;
+    color: grey;
+}
+
+.article{
+    position: absolute;
+    top:85px;
+    left:140px;
+    background-color: #dcdcdc;
+    color: #666;
+    width:85px;
+    font-size: 12px;
+    line-height: 5px;
+    padding: 5px;
+
+
+}
+
+
+.articleDefinition{
+    color: black;
+    font-size: 12px;
+}
+
+
+.starsValueListWithImages{
+    background: url(../images/icons.png) no-repeat;
+    background-position: 49.8% 41%;
+
+    width:72px;
+    height: 15px;
+    position: absolute;
+    top:85px;
+    left: 250px;
+}
+
+.reviewsListWithImages{
+    position: absolute;
+    top:85px;
+    left:325px;
+    border-bottom: 1px dotted #808080;
+    font-size: 13px;
+}
+
+.advantageGoodsListWithImages{
+    position: absolute;
+    width:99px;
+    height: 13px;
+    left:350px;
+    top:80px;
+    border: 1px solid green;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    color:white;
+    font-size: 12px;
+    background-color: green;
+    padding: 5px;
+}
+
+.superPriceListWithImages{
+    position: absolute;
+    width:60px;
+    height: 13px;
+    left:485px;
+    top:80px;
+    border: 1px solid green;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    color:white;
+    font-size: 12px;
+    background-color: green;
+    padding: 5px;
+}
+
+.whiteBack{
+    width:300px;
+    height: 130px;
+    float: right;
+    background-color: white;
+    z-index:99;
+    position: relative;
+}
+
+.oldPriceListWithImages{
+    margin-top: 25px;
+    margin-right: 171px;
+    width:130px;
+    height: 10px;
+    text-decoration: line-through;
+    color: red;
+    font-size: 15px;
+    float: right;
+}
+
+.priceRurListWithImages{
+    position: absolute;
+    top:50px;
+    left:-1px;
+    font-size: 19px;
+    font-weight: bolder;
+    width: 120px;
+
+}
+.rurListWithImages{
+    font-size: 16px;
+    position: absolute;
+    top:51px;
+    left:50px;
+    width: 50px;
+}
+.questionListWithImages{
+    position: absolute;
+    left:90px;
+    top:51px;
+    width:12px;
+    height: 14px;
+    border:1px dotted #808080;
+    border-radius: 9px 9px 9px 9px;
+    -moz-border-radius: 9px 9px 9px 9px;
+    -webkit-border-radius: 9px 9px 9px 9px;
+    padding-left: 6px;
+    font-size: 14px;
+}
+
+
+.xxlBonus{
+    position: absolute;
+    left: 0px;
+    top:80px;
+    font-size:12px;
+    line-height: 10px;
+    color:#808080;
+    width: 180px;
+    display: table-cell;
+}
+
+.xxlBonusValue{
+    color:black;
+    font-size: 12px;
+    line-height: 10px;
+    width: 120px;
+}
+
+
+.inStockListWithImages{
+    position: absolute;
+    top:-5px;
+    left:10px;
+    width:60px;
+    height:13px;
+    color: green;
+    font-size: 13px;
+    line-height: 10px;
+    border-bottom: 1px dotted #008000;
+
+}
+
+
+.inStockListWithImages:hover{
+    color: red;
+    border-bottom: 1px dotted red;
+}
+
+
+.roundBallListWithImages{
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    left:-1px;
+    top:105px;
+    border-bottom: 3px solid green;
+    border-top: 3px solid green;
+    border-left: 3px solid green;
+    border-right: 3px solid green;
+    border-radius: 3px;
+}
+
+
+.roundBallListWithImages:hover{
+    border-bottom: 3px solid red;
+    border-top: 3px solid red;
+    border-left: 3px solid red;
+    border-right: 3px solid red;
+    border-radius: 3px;
+}
+
+.guarantee{
+    position: absolute;
+    top:125px;
+    margin-right: 167px;
+    color: #808080;
+    font-size: 12px;
+    line-height: 10px;
+    width: 200px;
+}
+
+.ListWithImagesBuyButton{
+    position:relative;
+    float: right;
+    top:-15px;
+    left:0px;
+    margin-right: 25px;
+    width: 90px;
+    height: 25px;
+    background: red;
+    border: 1px solid red;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    font-size: 14px;
+    color: white;
+    box-shadow: 0px 1px 2px 1px #808080;
+}
+
+
+.ListWithImagesBuyButton:hover{
+    background-color: #F2051D;
+    box-shadow: 0px 1px 2px 1px darkgray;
+    outline: none;
+}
+
+
+.comparisonIconListWithImages{
+    position:relative;
+    top:30px;
+    left:13px;
+    float: right;
+    width:15px;
+    height: 20px;
+    background: url(../images/icons.png) no-repeat;
+    background-position: 25.65% 0%
+}
+
+.comparisonIconListWithImages:hover{
+    background: url(../images/icons.png) no-repeat;
+    background-position: 26.45% 0%;
+}
+
+.comparisonTextListWithImages{
+    position:relative;
+    float: right;
+    top:0px;
+    left: 95px;
+    width:90px;
+    height: 15px;
+    color:grey;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.comparisonTextListWithImages:hover{
+    color: red;
+
+}
+
+.bookmarksListWithImages{
+    width:65px;
+    height:15px;
+    position: relative;
+    left:20px;
+    margin-right: 15px;
+    font-size: 13px;
+    color: #808080;
+    float: right;
+
+}
+
+.bookmarksListWithImages:hover{
+    color: red;
+}
+
+
+.bookmarksImageListWithImages{
+    background: url(../images/bookmark.png) no-repeat;
+    height:20px;
+    width:80px;
+    position: relative;
+    top:55px;
+    left:122px;
+    margin-right: 30px;
+    float: right;
+}
+
+.bookmarksImageListWithImages:hover{
+    background: url(../images/bookmarkRed.png) no-repeat;
+
+}
+
+
+.simpleList{
+    position: absolute;
+    max-width: 1055px;
+    width:77.5%;
+    min-width: 700px;
+    top:230px;
+    height: auto;
+    display: none;
+}
+
+.simpleListTabletFirst{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+}
+
+.simpleListTabletFirst:hover{
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    1px 1px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         1px 1px 5px 0px rgba(50, 50, 50, 0.75);
+    z-index: 112;
+}
+
+
+.simpleListTablet{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    border: 1px solid #dcdcdc;
+
+}
+
+.simpleListTablet:hover{
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    1px 1px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         1px 1px 5px 0px rgba(50, 50, 50, 0.75);
+    z-index: 112;
+}
+
+.articleSL{
+    position: absolute;
+    top:14px;
+    left:10px;
+    background-color: #E9F0F0;
+    color: #808080;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.articleDefinitionSL{
+    color: black;
+    font-size: 12px;
+}
+
+
+.paraghSL{
+    position: absolute;
+    top:20px;
+    left:90px;
+    line-height: 10px;
+}
+
+
+.paragLinkSL{
+    position:absolute;
+    width:229px;
+    height:65px;
+    top:0px;
+    left:5px;
+    font-size: 14px;
+    text-align: justify;
+    color: black;
+    text-decoration: none;
+}
+
+.paragLinkSL:hover{
+    position:absolute;
+    width:229px;
+    height:65px;
+    top:0px;
+    left:5px;
+    font-size: 14px;
+    text-align: justify;
+    color: red;
+    text-decoration: none;
+
+}
+
+.whiteBackSL{
+    position: relative;
+    float: right;
+    background-color: white;
+    height: 50px;
+    z-index: 111;
+    width: 650px;
+
+}
+
+
+.priceRurSL{
+    position: absolute;
+    top:15px;
+    left:330px;
+    font-size: 19px;
+    font-weight: bolder;
+
+}
+.rurSL{
+    font-size: 16px;
+    position: absolute;
+    top:16px;
+    left:380px;
+}
+.questionSL{
+    position: absolute;
+    left:420px;
+    top:17px;
+    width:12px;
+    height: 14px;
+    border:1px dotted #808080;
+    border-radius: 9px 9px 9px 9px;
+    -moz-border-radius: 9px 9px 9px 9px;
+    -webkit-border-radius: 9px 9px 9px 9px;
+    padding-left: 6px;
+    font-size: 14px;
+}
+
+
+.advantageGoodsSL{
+    position: absolute;
+    width:99px;
+    height: 13px;
+    left:50px;
+    top:13px;
+    border: 1px solid green;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    color:white;
+    font-size: 12px;
+    background-color: green;
+    padding: 5px;
+}
+
+.superPriceSL{
+    position: absolute;
+    width:60px;
+    height: 13px;
+    left:170px;
+    top:13px;
+    border: 1px solid green;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    color:white;
+    font-size: 12px;
+    background-color: green;
+    padding: 5px;
+}
+
+
+.oldPriceSL{
+    position: absolute;
+    top:18px;
+    left:255px;
+    width:110px;
+    height: 10px;
+    text-decoration: line-through;
+    color: red;
+    font-size: 14px;
+}
+
+
+.roundBallSL{
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    left: 450px;
+    top: 22px;
+    border-bottom: 3px solid green;
+    border-top: 3px solid green;
+    border-left: 3px solid green;
+    border-right: 3px solid green;
+    border-radius: 3px;
+}
+
+.roundBallSL:hover{
+    border-bottom: 3px solid red;
+    border-top: 3px solid red;
+    border-left: 3px solid red;
+    border-right: 3px solid red;
+    border-radius: 3px;
+}
+
+
+.buyButtonSL{
+    position:absolute;
+    top:13px;
+    left: 470px;
+    width: 90px;
+    height: 25px;
+    background: red;
+    border: 1px solid red;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    font-size: 14px;
+    color: white;
+    box-shadow: 0px 1px 2px 1px #808080;
+}
+
+
+.buyButtonSL:hover{
+    background-color: #F2051D;
+    box-shadow: 0px 1px 2px 1px darkgray;
+    outline: none;
+}
+
+
+.comparisonIconSL{
+    position:absolute;
+    top:18px;
+    left:590px;
+    width:15px;
+    height: 20px;
+    background: url(../images/icons.png) no-repeat;
+    background-position: 25.6% 0%;
+}
+
+.comparisonIconSL:hover{
+    background: url(../images/icons.png) no-repeat;
+    background-position: 26.4% 0%;
+}
+
+
+.bookmarksImageSL{
+    background: url(../images/icons.png) no-repeat;
+    background-position: 27.2% 0%;
+    height:20px;
+    width:15px;
+    position: absolute;
+    top:17px;
+    left:620px;
+
+}
+
+.bookmarksImageSL:hover{
+    background: url(../images/icons.png) no-repeat;
+    background-position: 28% 0%;
+}
+
+

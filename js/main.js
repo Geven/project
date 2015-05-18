@@ -1,10 +1,19 @@
 $(document).ready(function() {
-    $('#searchIcon').click(function() {
-        $('#hiddenElements').slideToggle("fast");
+    $('.buttonIconSecond').click(function() {
+        $('.listWithImages').slideToggle("fast");
+        $('.tabletList').hide();
+        $('.simpleList').hide();
     });
-    $('#sortValues').click(function() {
-        $('#hiddenSearchValues').slideToggle("fast");
+    $('.buttonIcon').click(function() {
+        $('.tabletList').slideToggle("fast");
+        $('.listWithImages').hide();
+        $('.simpleList').hide();
     });
 
+    $('.buttonIconThird').click(function() {
+        $('.simpleList').slideToggle("fast");
+        $('.listWithImages').hide();
+        $('.tabletList').hide();
+    });
 });
 
