@@ -400,22 +400,69 @@ body {
 .advantageGoods{
     position: relative;
     width:33%;
+    width:40%\9;
     height: 1em;
     left:5%;
     //top:-5%;
+    behavior: url('http://localhost/project/PIE.htc');
     border: 1px solid green;
     border-radius: 5px 5px 5px 5px;
     -moz-border-radius: 5px 5px 5px 5px;
     -webkit-border-radius: 5px 5px 5px 5px;
     color:white;
     font-size:0.9vw;
+
     background-color: green;
     padding: 5px;
+}
+
+::i-block-chrome, .advantageGoods{
+    position: relative;
+    width:108px;
+    height: 1em;
+    left:5%;
+    border: 1px solid green;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    color:white;
+    font-size:13px;
+    background-color: green;
+    padding: 5px;
+}
+
+_::-webkit-full-page-media, _:future, :root .advantageGoods {
+
+    color:#0000FF;
+    background-color:#CCCCCC;
+    width: 108px;
+    font-size: 13px;
+
 }
 
 .superPrice{
     position: relative;
     width:17%;
+    width:25%\9;
+    height: 1em;
+    margin-left:5%;
+    top:4%;
+    behavior: url('http://localhost/project/PIE.htc');
+    border: 1px solid green;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    color:white;
+    font-size: 0.9vw;
+    background-color: green;
+    padding: 5px;
+
+}
+
+::i-block-chrome, .superPrice{
+
+    position: relative;
+    width:108px;
     height: 1em;
     margin-left:5%;
     top:4%;
@@ -424,10 +471,19 @@ body {
     -moz-border-radius: 5px 5px 5px 5px;
     -webkit-border-radius: 5px 5px 5px 5px;
     color:white;
-    font-size: 0.9vw;
-    //font-size:13px;
+    font-size: 13px;
     background-color: green;
     padding: 5px;
+
+}
+
+
+_::-webkit-full-page-media, _:future, :root .superPrice {
+
+    width:108px;
+    color:#0000FF;
+    background-color:#CCCCCC;
+    font-size: 13px;
 
 }
 
@@ -483,16 +539,22 @@ body {
     font-weight: bolder;
     top:10%;
 }
+
 .rur{
     font-size: 1.1vw;
     position: relative;
     top:-15%;
     left:40%;
+    top:-12%\9;
+    left: 30%\9;
 }
+
 .question{
     position: relative;
     left:71%;
+    left:55%\9;
     top:-39%;
+    top:-31%\9;
     width:10%;
     height: 1em;
    /* border:1px solid #808080;
@@ -506,6 +568,7 @@ body {
 .starsValue{
     position: relative;
     top:-35%;
+    top:-25%\9;
     left:0%;
     color:red;
     font-size: 1.2vw;
@@ -514,7 +577,9 @@ body {
 .reviews{
     position: relative;
     top:-60%;
+    top:-45%\9;
     left:70%;
+    left: 65%\9;
     border-bottom: 1px dotted #808080;
     font-size: 1vw;
     width: 15%;
@@ -526,11 +591,14 @@ body {
     left:-10%;
     bottom: 65%;
 }
+
 .tabletListBuyButton{
     position:relative;
+    top:10px\9;
     width: 90%;
     height: 50%;
     background: red;
+    behavior: url('http://localhost/project/PIE.htc');
     border: 1px solid red;
     border-radius: 5px 5px 5px 5px;
     -moz-border-radius: 5px 5px 5px 5px;
@@ -595,10 +663,10 @@ body {
     left:39%;
     background-size:cover;
     -moz-background-size:cover;
-    //zoom: 100%;
     width:15px;
     height:20px;
     background: url(../images/icons.png) no-repeat;
+    background: url(../images/compareIcon.png) no-repeat\9;
     background-position: 25.6% 0%;
     //border:1px solid black;
     font-size: 1.1vw;
@@ -607,8 +675,9 @@ body {
 
 .comparisonIcon:hover{
     background: url(../images/icons.png) no-repeat;
+    background: url(../images/compareIconRed.png) no-repeat\9;
     background-position: 26.4% 0%;
-    }
+}
 
 .comparisonText{
     position:relative;
@@ -644,6 +713,7 @@ body {
 
 .bookmarksImage{
     background: url(../images/icons.png) no-repeat;
+    background: url(../images/bookmark.png) no-repeat\9;
     background-position: 27.2% 0%;
     background-size:cover;
     -moz-background-size: cover;
@@ -659,6 +729,7 @@ body {
 
 .bookmarksImage:hover{
     background: url(../images/icons.png) no-repeat;
+    background: url(../images/bookmarkRed.png) no-repeat\9;
     background-position: 27.99% 0%;
     background-size:cover;
     -moz-background-size: cover;
