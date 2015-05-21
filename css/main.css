@@ -549,6 +549,20 @@ _::-webkit-full-page-media, _:future, :root .superPrice {
     left: 30%\9;
 }
 
+::i-block-chrome, .rur{
+    font-size: 1.1vw;
+    position: relative;
+    top:-12%;
+    left:30%;
+}
+
+_::-webkit-full-page-media, _:future, .rur{
+    font-size: 1.1vw;
+    position: relative;
+    top:-12%;
+    left:30%;
+}
+
 .question{
     position: relative;
     left:71%;
@@ -565,10 +579,42 @@ _::-webkit-full-page-media, _:future, :root .superPrice {
    */ font-size: 1.1vw;
 }
 
+::i-block-chrome, .question{
+    position: relative;
+    left:55%;
+    top:-32%;
+    width:10%;
+    height: 1em;
+}
+
+_::-webkit-full-page-media, _:future, .question{
+    position: relative;
+    left:55%;
+    top:-32%;
+    width:10%;
+    height: 1em;
+}
+
 .starsValue{
     position: relative;
     top:-35%;
     top:-25%\9;
+    left:0%;
+    color:red;
+    font-size: 1.2vw;
+}
+
+::i-block-chrome, .starsValue{
+    position: relative;
+    top:-25%;
+    left:0%;
+    color:red;
+    font-size: 1.2vw;
+}
+
+_::-webkit-full-page-media, _:future, .starsValue{
+    position: relative;
+    top:-25%;
     left:0%;
     color:red;
     font-size: 1.2vw;
@@ -580,6 +626,24 @@ _::-webkit-full-page-media, _:future, :root .superPrice {
     top:-45%\9;
     left:70%;
     left: 65%\9;
+    border-bottom: 1px dotted #808080;
+    font-size: 1vw;
+    width: 15%;
+}
+
+::i-block-chrome, .reviews{
+    position: relative;
+    top:-48%;
+    left:65%;
+    border-bottom: 1px dotted #808080;
+    font-size: 1vw;
+    width: 15%;
+}
+
+_::-webkit-full-page-media, _:future, .reviews{
+    position: relative;
+    top:-48%;
+    left:65%;
     border-bottom: 1px dotted #808080;
     font-size: 1vw;
     width: 15%;
@@ -606,6 +670,40 @@ _::-webkit-full-page-media, _:future, :root .superPrice {
     font-size: 1.1vw;
     color: white;
     box-shadow: 0px 1px 2px 1px #808080;
+}
+
+
+::i-block-chrome, .tabletListBuyButton{
+    position:relative;
+    top:15px;
+    width: 90%;
+    height: 50%;
+    background: red;
+    behavior: url('http://localhost/project/PIE.htc');
+    border: 1px solid red;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    font-size: 1.1vw;
+    color: white;
+    box-shadow: 0px 1px 2px 1px #808080;
+}
+
+_::-webkit-full-page-media, _:future, .tabletListBuyButton{
+    position:relative;
+    top:15px;
+    width: 90%;
+    height: 50%;
+    background: red;
+    behavior: url('http://localhost/project/PIE.htc');
+    border: 1px solid red;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    font-size: 1.1vw;
+    color: white;
+    box-shadow: 0px 1px 2px 1px #808080;
+
 }
 
 .tabletListBuyButton:hover{
@@ -715,13 +813,8 @@ _::-webkit-full-page-media, _:future, :root .superPrice {
     background: url(../images/icons.png) no-repeat;
     background: url(../images/bookmark.png) no-repeat\9;
     background-position: 27.2% 0%;
-    background-size:cover;
-    -moz-background-size: cover;
-    /*height:20px;
+    height:20px;
     width:15px;
-    */
-    width:15px;
-    height: 60px;
     position: absolute;
     left:39%;
     margin-top:3.5%;
@@ -731,10 +824,8 @@ _::-webkit-full-page-media, _:future, :root .superPrice {
     background: url(../images/icons.png) no-repeat;
     background: url(../images/bookmarkRed.png) no-repeat\9;
     background-position: 27.99% 0%;
-    background-size:cover;
-    -moz-background-size: cover;
     width:15px;
-    height: 60px;
+    height:20px;
 
 }
 
