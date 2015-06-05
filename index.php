@@ -73,12 +73,12 @@
                 </div>
                 <!--<div class="roundBall"></div>--><div class="inStock">В наличии</div>
 
-                    <div class="comparisonIcon"></div><div class="comparisonText">К сравнению</div>
-                    <div class="bookmarksImage"></div><div class="bookmarks">В закладки</div>
+                    <!--<div class="comparisonIcon"></div>--><div class="comparisonText">К сравнению</div>
+                    <!--<div class="bookmarksImage"></div>--><div class="bookmarks">В закладки</div>
             </div>
         </div>
         <div class="tabletListItem">
-            <!--<div class="tabletListImage"><img src="images/check.png"></div>
+            <div class="tabletListImage"><img class="scaleImage" src="images/check.png"></div>
             <div class="advantageGoods">Выгодная покупка</div>
             <div class="superPrice">Суперцена</div>
             <div class="tabletListParag"><a class="tabletListParagLink" href="#">Радиостанция Motorola TLKR-T40</a></div>
@@ -86,19 +86,18 @@
                 <div class="tabletListFirstColumn">
                     <div class="oldPrice">5 440 руб.</div>
                     <div class="priceRur">1 900</div><div class="rur">руб.</div> <div class="question">?</div>
-                    <div class="starsValue"></div>
+                    <div class="starsValue">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                     <div class="reviews">15</div>
-                    <input type="button" value="Купить" class="tabletListBuyButton" />
-
+                    <div class="tabletListBuyButtonDiv"><input type="button" value="Купить" class="tabletListBuyButton" /></div>
                 </div>
-                <div class="roundBall"><div class="inStock">В наличии</div></div>
+                <!--<div class="roundBall"></div>--><div class="inStock">В наличии</div>
 
-                <div class="comparisonIcon"><div class="comparisonText">К сравнению</div></div>
-                <div class="bookmarksImage"><div class="bookmarks">В закладки</div></div>
-            </div>-->
+                    <!--<div class="comparisonIcon"></div>--><div class="comparisonText">К сравнению</div>
+                    <!--<div class="bookmarksImage"></div>--><div class="bookmarks">В закладки</div>
+            </div>
         </div>
         <div class="tabletListItem">
-            <!--<div class="tabletListImage"><img src="images/check.png"></div>
+            <div class="tabletListImage"><img class="scaleImage" src="images/check.png"></div>
             <div class="advantageGoods">Выгодная покупка</div>
             <div class="superPrice">Суперцена</div>
             <div class="tabletListParag"><a class="tabletListParagLink" href="#">Радиостанция Motorola TLKR-T40</a></div>
@@ -106,19 +105,18 @@
                 <div class="tabletListFirstColumn">
                     <div class="oldPrice">5 440 руб.</div>
                     <div class="priceRur">1 900</div><div class="rur">руб.</div> <div class="question">?</div>
-                    <div class="starsValue"></div>
+                    <div class="starsValue">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                     <div class="reviews">15</div>
-                    <input type="button" value="Купить" class="tabletListBuyButton" />
-
+                    <div class="tabletListBuyButtonDiv"><input type="button" value="Купить" class="tabletListBuyButton" /></div>
                 </div>
-                <div class="roundBall"><div class="inStock">В наличии</div></div>
+                <!--<div class="roundBall"></div>--><div class="inStock">В наличии</div>
 
-                <div class="comparisonIcon"><div class="comparisonText">К сравнению</div></div>
-                <div class="bookmarksImage"><div class="bookmarks">В закладки</div></div>
-            </div>-->
+                    <!--<div class="comparisonIcon"></div>--><div class="comparisonText">К сравнению</div>
+                    <!--<div class="bookmarksImage"></div>--><div class="bookmarks">В закладки</div>
+            </div>
         </div>
         <div class="tabletListItem">
-            <!--<div class="tabletListImage"><img src="images/check.png"></div>
+            <div class="tabletListImage"><img class="scaleImage" src="images/check.png"></div>
             <div class="advantageGoods">Выгодная покупка</div>
             <div class="superPrice">Суперцена</div>
             <div class="tabletListParag"><a class="tabletListParagLink" href="#">Радиостанция Motorola TLKR-T40</a></div>
@@ -126,19 +124,18 @@
                 <div class="tabletListFirstColumn">
                     <div class="oldPrice">5 440 руб.</div>
                     <div class="priceRur">1 900</div><div class="rur">руб.</div> <div class="question">?</div>
-                    <div class="starsValue"></div>
+                    <div class="starsValue">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                     <div class="reviews">15</div>
-                    <input type="button" value="Купить" class="tabletListBuyButton" />
-
+                    <div class="tabletListBuyButtonDiv"><input type="button" value="Купить" class="tabletListBuyButton" /></div>
                 </div>
-                <div class="roundBall"><div class="inStock">В наличии</div></div>
+                <!--<div class="roundBall"></div>--><div class="inStock">В наличии</div>
 
-                <div class="comparisonIcon"><div class="comparisonText">К сравнению</div></div>
-                <div class="bookmarksImage"><div class="bookmarks">В закладки</div></div>
-            </div>-->
+                    <!--<div class="comparisonIcon"></div>--><div class="comparisonText">К сравнению</div>
+                    <!--<div class="bookmarksImage"></div>--><div class="bookmarks">В закладки</div>
+            </div>
         </div>
         <div class="tabletListItem">
-            <!--<div class="tabletListImage"><img src="images/check.png"></div>
+            <div class="tabletListImage"><img class="scaleImage" src="images/check.png"></div>
             <div class="advantageGoods">Выгодная покупка</div>
             <div class="superPrice">Суперцена</div>
             <div class="tabletListParag"><a class="tabletListParagLink" href="#">Радиостанция Motorola TLKR-T40</a></div>
@@ -146,21 +143,18 @@
                 <div class="tabletListFirstColumn">
                     <div class="oldPrice">5 440 руб.</div>
                     <div class="priceRur">1 900</div><div class="rur">руб.</div> <div class="question">?</div>
-                    <div class="starsValue"></div>
+                    <div class="starsValue">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                     <div class="reviews">15</div>
-                    <input type="button" value="Купить" class="tabletListBuyButton" />
-
+                    <div class="tabletListBuyButtonDiv"><input type="button" value="Купить" class="tabletListBuyButton" /></div>
                 </div>
-                <div class="roundBall"><div class="inStock">В наличии</div></div>
+                <!--<div class="roundBall"></div>--><div class="inStock">В наличии</div>
 
-                <div class="comparisonIcon"><div class="comparisonText">К сравнению</div></div>
-                <div class="bookmarksImage"><div class="bookmarks">В закладки</div></div>
-            </div>-->
+                    <!--<div class="comparisonIcon"></div>--><div class="comparisonText">К сравнению</div>
+                    <!--<div class="bookmarksImage"></div>--><div class="bookmarks">В закладки</div>
+            </div>
         </div>
-
-
         <div class="tabletListItem">
-            <!--<div class="tabletListImage"><img src="images/check.png"></div>
+            <div class="tabletListImage"><img class="scaleImage" src="images/check.png"></div>
             <div class="advantageGoods">Выгодная покупка</div>
             <div class="superPrice">Суперцена</div>
             <div class="tabletListParag"><a class="tabletListParagLink" href="#">Радиостанция Motorola TLKR-T40</a></div>
@@ -168,26 +162,25 @@
                 <div class="tabletListFirstColumn">
                     <div class="oldPrice">5 440 руб.</div>
                     <div class="priceRur">1 900</div><div class="rur">руб.</div> <div class="question">?</div>
-                    <div class="starsValue"></div>
+                    <div class="starsValue">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                     <div class="reviews">15</div>
-                    <input type="button" value="Купить" class="tabletListBuyButton" />
-
+                    <div class="tabletListBuyButtonDiv"><input type="button" value="Купить" class="tabletListBuyButton" /></div>
                 </div>
-                <div class="roundBall"><div class="inStock">В наличии</div></div>
+                <!--<div class="roundBall"></div>--><div class="inStock">В наличии</div>
 
-                <div class="comparisonIcon"><div class="comparisonText">К сравнению</div></div>
-                <div class="bookmarksImage"><div class="bookmarks">В закладки</div></div>
-            </div>-->
+                    <!--<div class="comparisonIcon"></div>--><div class="comparisonText">К сравнению</div>
+                    <!--<div class="bookmarksImage"></div>--><div class="bookmarks">В закладки</div>
+            </div>
         </div>
 
 
     </div>
-   <!-- <div class="listWithImages">
+   <div class="listWithImages">
         <div class="listWithImagesTablet">
             <div class="smallImage">
-                <img src="images/smallImages/311735s.jpg">
+                <img class="scaleImageList" src="images/smallImages/311735s.jpg">
             </div>
-            <div class="listWithImagesParagh"><a class="listWithImagesLink" href="#">Радар-детектор Supra DRS-60</a></div>
+            <div><a class="listWithImagesLink" href="#">Радар-детектор Supra DRS-60</a></div>
             <div class="listWithImagesParaghDuplicate">Радар-детектор Supra DRS-60</div>
             <div class="article">Артикул <span class="articleDefinition">392611</span></div>
             <div class="starsValueListWithImages"></div>
@@ -409,7 +402,7 @@
         </div>
 
 
-    </div>-->
+    </div>
 </body>
 
 </html>
